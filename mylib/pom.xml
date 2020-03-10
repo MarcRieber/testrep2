@@ -64,6 +64,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
 	</plugin>
+	<!--
 	<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -74,7 +75,7 @@
 	  <executable>C:\jtools\jdk-11\bin\javac.exe</executable>
           <compilerVersion>1.11</compilerVersion>
         </configuration>
-      </plugin>
+</plugin>  -->
         </plugins>
     </build>
 </project>
