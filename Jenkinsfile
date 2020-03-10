@@ -4,8 +4,9 @@ pipeline {
 	stage('build') {
 	steps {
 		echo  " A STEP"
-		cd xxx
-		bat "mvn clean package"
+		dir("xxx") {
+		 bat "mvn clean package"
+		}
 	}
 
 	}
